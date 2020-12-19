@@ -1,18 +1,22 @@
 ---
-title: "Welcome to My Blog"
-description: |
-  Welcome to our new blog, My Blog. We hope you enjoy 
-  reading what we have to say!
+title: "Welcome to the Alliance Blog"
+
 author:
-  - name: Nora Jones 
+  - name: Richard Hodges 
     url: https://example.com/norajones
-    affiliation: Spacely Sprockets
+    affiliation: Ohio Alliance for Innovation in Population Health
     affiliation_url: https://example.com/spacelysprokets
-date: 12-19-2020
+date: 12-14-2020
 output:
   distill::distill_article:
     self_contained: false
 ---
+
+  The Ohio Alliance for Innovation in Population Health (the Alliance) is launching a blogsite to provide our members and other constituents with timely data, editorials and guest opinions about pressing health problems confronting Ohio. Please feel free to ask questions, identify topics of interest and voice your concerns.
+  
+Best Wishes,
+
+Richard Hodges, Director
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)

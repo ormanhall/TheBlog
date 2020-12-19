@@ -1,19 +1,70 @@
 [
   {
-    "path": "posts/welcome/",
-    "title": "Welcome to My Blog",
-    "description": "Welcome to our new blog, My Blog. We hope you enjoy \nreading what we have to say!",
+    "path": "posts/2020-12-14-covid-19-cases-and-deaths-by-age/",
+    "title": "Ohio COVID-19 Cases and Deaths by Age",
+    "description": "Ohio COVID-19 infections are widely distributed across all ages. Hospitalizations and deaths are disproportionately accounted by older Ohioans with serious underlying health conditions.",
     "author": [
       {
-        "name": "Nora Jones",
+        "name": "Orman Hall",
         "url": "https://example.com/norajones"
       }
     ],
-    "date": "2020-12-19",
+    "date": "2020-12-14",
     "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n",
+    "contents": "\r\n\r\n\r\n\r\nFigure 1: Ohio Statehouse\r\n\r\n\r\n\r\nOhio COVID-19 Cases, Hospitalizations and Deaths by Age and Quarter\r\nThe following bubble graph displays the number of COVID-19 infections by age and quarter. Each age cohort is represented by separate colors as noted in the legend to the right. This figure shows that persons between the ages of 20 through 29 account for more infections than the other age groups. Overall infections have increased and apparently have not yet peaked.\r\n\r\n\r\n\r\nFigure 2: Infections by Age and Quarter\r\n\r\n\r\n\r\nThe final graph shows deaths by age and quarter. In this figure we see an overwhelming number of COVID-19 fatalities are accounted for by very elderly Ohioans. While it is widely known that the elderly are most susceptible to COVID-19, it is also true that middle-aged persons with significant underlying diseases like respiratory disorders and diabetes are vulnerable to serious harm. Interestingly, overall deaths peaked earlier in the pandemic and have yet to reach previous totals.\r\n\r\n\r\n\r\nFigure 3: Deaths by Age and Quarter\r\n\r\n\r\n\r\nWe are now in the third wave of infections, and while the ratio of deaths to infections is lower than what was seen in previous waves, it is possible that the sheer number of new infections and hospitalizations may overwhelm our healthcare system and cause unacceptably high death rates. Ohio will likely see peak pandemic numbers over the next several weeks. These data were extracted from the Ohio Department of Health COVID-19 Dashboard.1\r\n\r\nCOVID-19. (2020). Retrieved 6 December 2020, from https://coronavirus.ohio.gov/wps/portal/gov/covid-19/home↩\r\n",
+    "preview": "posts/2020-12-14-covid-19-cases-and-deaths-by-age/Levlong.jpg",
+    "last_modified": "2020-12-16T13:18:21-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2020-12-14-how-does-ohio-compare/",
+    "title": "How does Ohio Compare?",
+    "description": "During the early days of the pandemic, Ohio was widely lauded for its response to COVID-19, but what does recent data tell us about Ohio's performance? The following blog delves into national data and puts recent Ohio trends as of Saturday, December 12, in the broader context of national data.",
+    "author": [
+      {
+        "name": "Orman Hall",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2020-12-14",
+    "categories": [],
+    "contents": "\r\nThe COVID Tracking Project is a volunteer organization initiated by The Atlantic for the purpose of collecting and publishing national trends necessary to understand COVID-19 outbreaks throughout the United States.1\r\nDuring the early months of the pandemic, Ohio’s rate of infections and overall trends in change over time were trended lower than national average. The following graph of reported infections per 100,000 population since July shows that since mid October infection rates have increased at a much more dramatic rate than national average.2\r\nCOVID-19 Infections Over Time\r\n\r\n\r\n\r\nFigure 1: Source: Covid Tracking Project\r\n\r\n\r\n\r\nSimilarly, a review of hospitalization rates per 100,000 shows alarming increases that also exceed national trends. While no can forecast with accuracy how infection rates will change over the next several months, there is significant cause for concern and the number of Ohio hospitalizations in November and December suggests that demand for acute hospital services for COVID-19 patients may exceed capacity in some of the more affected areas.\r\nCOVID-19 Hospitalizations Over Time\r\n\r\n\r\n\r\nFigure 2: Source: Covid Tracking Project\r\n\r\n\r\n\r\nCOVID-19 Deaths Over Time\r\nFortunately for Ohio, the death rate per 100,000 population remains at or below national average. However, since mid-October Ohio deaths have increased at a more rapid rate and are now approaching the national average.\r\n\r\n\r\n\r\nFigure 3: Source: Covid Tracking Project\r\n\r\n\r\n\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\nThe COVID Tracking Project. (2020). Retrieved 13 December 2020, from https://covidtracking.com/↩\r\nTrump Sits Out Debut of Covid-19 Vaccine That He Long Championed. (2020). Retrieved 16 December 2020, from https://www.msn.com/en-us/news/politics/trump-sits-out-debut-of-covid-19-vaccine-that-he-long-championed/ar-BB1bY8rA?ocid=msedgntp↩\r\n",
+    "preview": "posts/2020-12-14-how-does-ohio-compare/uscase.jpg",
+    "last_modified": "2020-12-16T13:24:04-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/2020-12-14-is-south-east-ohio-headed-for-trouble/",
+    "title": "Is Southeast Ohio Headed for Trouble?",
+    "description": "Southeast Ohio is beautful, remote and many of its residents are desperately poor. In the early phases of the pandemic, the sparsely populated region was relatively unaffected by COVID-19. That is beginning to change.",
+    "author": [
+      {
+        "name": "Orman Hall",
+        "url": {}
+      }
+    ],
+    "date": "2020-12-14",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\nFigure 1: Hocking Hills State Park\r\n\r\n\r\n\r\nSoutheast Ohio is a region of tremendous physical beauty, but also home to deeply entrenched multi-generational poverty. Recent data suggest the area may also be an emerging hotspot for COVID-19.\r\nThe rate of infection for the region is now virtually identical to the remainder of the state. That in itself would be cause for concern, but a review of recent hospitalization trends shows that admissions are now about 50 percent higher than the rest Ohio.\r\nThere have been three distinct waves of COVID-19 transmission throughout the state. Overall, deaths have been lower in the second and third wave. While COVID-19 deaths were much initially lower in Southeast Ohio than the remainder the state, deaths have steadily increased throughout the region.\r\nLower initial rates throughout the region may have resulted in a degree of complacency. Disproportionate numbers of area poor residents who have underlying conditions combined with disregard for basic COVID-19 health practices could cause unnecessary loss of life in Southeast Ohio and other rural communities across the state. These data were extracted from the Ohio Department of Health COVID-19 Dashboard.1\r\nCovid-19 Deaths Over Time\r\n\r\n\r\n\r\n\r\nCOVID-19. (2020). Retrieved 6 December 2020, from https://coronavirus.ohio.gov/wps/portal/gov/covid-19/home↩\r\n",
+    "preview": "posts/2020-12-14-is-south-east-ohio-headed-for-trouble/seo.jpg",
+    "last_modified": "2020-12-14T10:58:58-05:00",
+    "input_file": {}
+  },
+  {
+    "path": "posts/welcome/",
+    "title": "Welcome to the Alliance Blog",
+    "description": {},
+    "author": [
+      {
+        "name": "Richard Hodges",
+        "url": "https://example.com/norajones"
+      }
+    ],
+    "date": "2020-12-14",
+    "categories": [],
+    "contents": "\r\nThe Ohio Alliance for Innovation in Population Health (the Alliance) is launching a blogsite to provide our members and other constituents with timely data, editorials and guest opinions about pressing health problems confronting Ohio. Please feel free to ask questions, identify topics of interest and voice your concerns.\r\nBest Wishes,\r\nRichard Hodges, Director\r\n\r\n\r\n\r\n",
     "preview": {},
-    "last_modified": "2020-12-19T12:32:38-05:00",
+    "last_modified": "2020-12-15T09:17:26-05:00",
     "input_file": {}
   }
 ]

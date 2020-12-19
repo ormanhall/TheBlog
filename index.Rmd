@@ -1,5 +1,5 @@
 ---
-title: "My Blog"
+title: "The Alliance Blog"
 site: distill::distill_website
 listing: posts
 ---

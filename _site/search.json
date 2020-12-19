@@ -6,14 +6,14 @@
       "description": "Some additional details about the blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2020-12-19T12:33:19-05:00"
+      "last_modified": "2020-12-19T12:36:36-05:00"
     },
     {
       "path": "index.html",
-      "title": "My Blog",
+      "title": "The Alliance Blog",
       "author": [],
       "contents": "\r\n\r\n\r\n\r\n",
-      "last_modified": "2020-12-19T12:33:20-05:00"
+      "last_modified": "2020-12-19T12:36:37-05:00"
     }
   ],
   "collections": ["posts/posts.json"]
