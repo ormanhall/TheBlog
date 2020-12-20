@@ -1,0 +1,160 @@
+---
+title: "It's Not All Bad News"
+description: |
+  While it is true that COVID-19 infections are increasing at an alarming pace across Ohio, the one saving grace may be that the percentage of deaths to infections has also declined. This is an important indicator that Ohio's physicians, nurses and other health care workers have responded effectively to the deadliest challenge of the 21st Century.  
+author:
+  - name: Orman Hall
+    url: https://example.com/norajones
+date: 12-20-2020
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+\pagenumbering{gobble}
+\clearpage
+\thispagestyle{empty}
+
+\begin{titlepage}
+
+\end{titlepage}
+\captionsetup[table]{
+  labelsep=newline,
+justification=justified,
+  singlelinecheck=false, %textfont=it,
+}
+\clearpage
+\tableofcontents
+
+\newpage
+
+\listoffigures
+\clearpage
+
+\pagenumbering{arabic}
+
+
+  
+```{r results='asis', echo=FALSE, include=FALSE,}
+knitr::opts_chunk$set(echo = TRUE, warning=FALSE)
+library(kableExtra)
+library(tidyverse)
+library(scales)
+library(lubridate)
+library(forecast)
+library(zoo)
+extrafont::loadfonts()
+library(knitr)
+```
+
+
+
+
+
+```{r, echo=FALSE, message=FALSE}
+CV1218<-read_csv("c:/dBase5/en/covid/CV1218.csv")
+CV1218<-filter(CV1218, DATE<"2020-12-11")
+CV1218$DATE = as.Date(CV1218$DATE)
+REGFIN<-read_csv("c:/dBase5/en/covid/REGFIN.csv")
+REGCEN<-summarize(group_by(REGFIN,REG),CENSUS=sum(C10))
+
+left_join(CV1218,REGFIN, by="NAME")->CV1218
+
+CV1218%>%
+  complete(NAME,
+           nesting(DATE),
+           fill = list(CCNT = 0, DCNT = 0, HCNT =0)) -> CV1218
+CV1218$WEEK<- isoweek(CV1218$DATE)
+CV1218 %>% mutate_if(is.numeric, funs(replace_na(.,0))) -> CV1218
+CV1218%>% drop_na(REG)->CV1218
+CV1218%>% drop_na(AGE)->CV1218
+CV1218<-filter(CV1218, AGE!="Unknown")
+
+CV1218$CASEMA = ma(CV1218$CCNT, order=7)
+CV1218$DEATHMA = ma(CV1218$DCNT, order=7)
+CV1218$HOSPMA = ma(CV1218$HCNT, order=7)
+CVREGSUM<-summarize(group_by(CV1218,REG,DATE),CASEMA=sum(CASEMA),HOSPMA=sum(HOSPMA), DEATHMA=sum(DEATHMA)) 
+left_join(CVREGSUM,REGCEN, by="REG")->CVREGSUM
+CVREGSUM%>% mutate(RCASEMA = ((CASEMA/CENSUS)*100000))->CVREGSUM 
+CVREGSUM%>% mutate(RHOSPMA = ((HOSPMA/CENSUS)*100000))->CVREGSUM
+CVREGSUM%>% mutate(RDEATHMA = ((DEATHMA/CENSUS)*100000))->CVREGSUM
+CVREGSUM%>% mutate(RDH = ((DEATHMA/HOSPMA)*100))->CVREGSUM
+CVREGSUM%>% drop_na(REG)->CVREGSUM
+#CVREGSUM<-filter(CVREGSUM, DATE>'2019-12-31' & DATE<'2020-11-13')
+CV1218$CASEMA = ma(CV1218$CCNT, order=7)
+CV1218$DEATHMA = ma(CV1218$DCNT, order=7)
+CV1218$HOSPMA = ma(CV1218$HCNT, order=7)
+CVREGSUM<-summarize(group_by(CV1218,REG,DATE),CASEMA=sum(CASEMA),HOSPMA=sum(HOSPMA), DEATHMA=sum(DEATHMA)) 
+left_join(CVREGSUM,REGCEN, by="REG")->CVREGSUM
+CVREGSUM%>% mutate(RCASEMA = ((CASEMA/CENSUS)*100000))->CVREGSUM 
+CVREGSUM%>% mutate(RHOSPMA = ((HOSPMA/CENSUS)*100000))->CVREGSUM
+CVREGSUM%>% mutate(RDEATHMA = ((DEATHMA/CENSUS)*100000))->CVREGSUM
+CVREGSUM%>% mutate(RDH = ((DEATHMA/HOSPMA)*100))->CVREGSUM
+CVREGSUM%>% mutate(RDC = ((DEATHMA/CASEMA)*100))->CVREGSUM
+CVREGSUM%>% drop_na(REG)->CVREGSUM
+#CVREGSUM<-filter(CVREGSUM, DATE>'2019-12-31' & DATE<'2020-11-13')
+CVAGESUM<-summarize(group_by(CV1218,AGE),CASE=sum(CCNT),HOSP=sum(HCNT), DEATH=sum(DCNT))
+
+
+CVAGESUM%>% drop_na(AGE)->CVAGESUM
+CVAGESUM %>% mutate(DEATH2=as.integer(DEATH))->CVAGESUM
+
+CVAGE2SUM<-summarize(group_by(CV1218,AGE,DATE),CASE=sum(CCNT),HOSP=sum(HCNT), DEATH=sum(DCNT))
+
+CVSUM<-summarize(group_by(CV1218,DATE),CASE=sum(CCNT),HOSP=sum(HCNT), DEATH=sum(DCNT))
+
+CVCO<-filter(CV1218, NAME=='Franklin')
+CVCOS<-summarize(group_by(CVCO,DATE),CASE=sum(CCNT),HOSP=sum(HCNT), DEATH=sum(DCNT))
+CVAGESUMC<-summarize(group_by(CVCO,AGE),CASE=sum(CCNT),HOSP=sum(HCNT), DEATH=sum(DCNT))
+
+
+
+CVMAP<-summarize(group_by(CV1218,NAME),CASE=sum(CCNT),HOSP=sum(HCNT), DEATH=sum(DCNT))
+
+left_join(CVMAP,REGFIN, by="NAME")->CVMAP
+
+CVMAP%>% mutate(RCASE = ((CASE/C10)*100000))->CVMAP 
+CVMAP%>% mutate(RHOSP = ((HOSP/C10)*100000))->CVMAP
+CVMAP%>% mutate(RDEATH = ((DEATH/C10)*100000))->CVMAP
+
+CVMAP %>% mutate_if(is.numeric, funs(replace_na(.,0))) -> CVMAP
+write.csv(CVMAP,"C:\\dBASE5\\en\\covid\\CVMAP.csv", row.names = FALSE)
+```
+```{r, echo=FALSE, message=FALSE}
+CV1218 <- CV1218 %>% mutate(MDATE = floor_date(as_date(DATE),"month"))
+CVMOSUM<-summarize(group_by(CV1218,MDATE),CASE=sum(CCNT),HOSP=sum(HCNT),DEATH=sum(DCNT)) 
+CVMOSUM %>% mutate(H2I=round((HOSP/CASE*100),2))->CVMOSUM
+CVMOSUM %>% mutate(D2H=round((DEATH/HOSP*100),2))->CVMOSUM
+CVMOSUM %>% mutate(D2I=round((DEATH/CASE*100),2))->CVMOSUM
+CVMOSUM<-filter(CVMOSUM, MDATE>"2020-03-31" & MDATE<"2020-12-01")
+```
+```{r, echo=FALSE, message=FALSE}
+CV1218 <- CV1218 %>% mutate(MDATE = floor_date(as_date(DATE),"month"))
+CVCOMOSUM<-summarize(group_by(CV1218,NAME,MDATE),CASE=sum(CCNT),HOSP=sum(HCNT),DEATH=sum(DCNT)) 
+CVCOMOSUM %>% mutate(H2I=round((HOSP/CASE*100),2))->CVCOMOSUM
+CVCOMOSUM %>% mutate(D2H=round((DEATH/HOSP*100),2))->CVCOMOSUM
+CVCOMOSUM %>% mutate(D2I=round((DEATH/CASE*100),2))->CVCOMOSUM
+CVCOMOSUM<-filter(CVCOMOSUM, MDATE>"2020-03-31" & MDATE<"2020-12-01",NAME=="Franklin")
+
+CVMOSUM %>% mutate(NAME="Ohio")->CVMOSUM
+CVCOMOSUM2<-rbind(CVCOMOSUM,CVMOSUM)
+left_join(CVCOMOSUM2,REGFIN, by="NAME")->CVCOMOSUM2
+CVCOMOSUM2 %>% mutate(I2P=round((CASE/C10*100000),2))->CVCOMOSUM2
+```
+
+\newpage
+
+Hospitalizations and deaths are increasing in this third wave of the pandemic, but not at a rate that could have been expected based on our initial experience with COVID-19. In the early phases of the pandemic almost 1 in ten of  identified cases died from the disease. In more recent months, Ohio has seen a steady decline in the ratio of deaths to infections. While case finding has improved, it is likely that improved health care response is also a big part of the story.
+
+This should not be construed as a reason to return to pre-COVID-19 behavior, but it does suggest that if we can continue to wear masks and avoid indoor gatherings until vaccines are widely available, Ohio's health care system will protect the majority of infected Ohioans.
+
+_The Ohio Department of Health neither agrees or disagrees with the analyses, interpretations, or conclusions in this report_.^[COVID-19. (2020). Retrieved 19 December 2020, from https://coronavirus.ohio.gov/wps/portal/gov/covid-19/home] 
+
+The following chart shows the percentage of deaths to infections for Ohio and Franklin County from April through November. 
+\newpage
+
+# Ohio & Franklin Co. Percent of Deaths to Cases
+
+```{r echo=FALSE, dpi=300}
+ggplot(CVCOMOSUM2, aes(x=MDATE, y=D2I,fill=NAME)) +geom_col(alpha=0.7,position="dodge") +  labs(caption = "Source: Ohio Department of Health", y="% Deaths to Cases", x="Month", color=NULL)+scale_x_date(labels = date_format("%b")) + theme_minimal()+theme(axis.title.y=element_text(hjust=0.5,size=10,colour="gray50"))+scale_fill_manual(values=c("#01684a","gray"))
+```
