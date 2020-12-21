@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2020-12-21-anis-draft/",
+    "title": "Ani's Draft",
+    "description": "A short description of the post.",
+    "author": [
+      {
+        "name": "Orman Hall",
+        "url": {}
+      }
+    ],
+    "date": "2020-12-21",
+    "categories": [],
+    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2020-12-21T11:10:53-05:00",
+    "input_file": "anis-draft.utf8.md"
+  },
+  {
     "path": "posts/2020-12-20-its-not-all-bad-news/",
     "title": "It's Not All Bad News",
     "description": "While it is true that COVID-19 infections are increasing at an alarming pace across Ohio, the one saving grace may be that the percentage of deaths to infections has declined. This is an important indicator that Ohio's physicians, nurses, and other health care workers have responded effectively to the deadliest challenge of the 21st Century.",
