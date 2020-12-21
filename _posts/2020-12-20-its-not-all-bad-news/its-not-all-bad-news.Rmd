@@ -6,6 +6,9 @@ author:
   - name: Orman Hall
 date: 12-20-2020
 base_url: https://youthful-curran-b41ac1.netlify.app/
+twitter:
+  site: "@HallOrman"
+  creator: "@HallOrman"
 output:
   distill::distill_article:
     self_contained: false
