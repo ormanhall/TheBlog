@@ -1,22 +1,5 @@
 [
   {
-    "path": "posts/2020-12-21-anis-draft/",
-    "title": "Ani's Draft",
-    "description": "A short description of the post.",
-    "author": [
-      {
-        "name": "Orman Hall",
-        "url": {}
-      }
-    ],
-    "date": "2020-12-21",
-    "categories": [],
-    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
-    "preview": {},
-    "last_modified": "2020-12-21T11:10:53-05:00",
-    "input_file": "anis-draft.utf8.md"
-  },
-  {
     "path": "posts/2020-12-20-its-not-all-bad-news/",
     "title": "It's Not All Bad News",
     "description": "While it is true that COVID-19 infections are increasing at an alarming pace across Ohio, the one saving grace may be that the percentage of deaths to infections has declined. This is an important indicator that Ohio's physicians, nurses, and other health care workers have responded effectively to the deadliest challenge of the 21st Century.",
@@ -28,9 +11,9 @@
     ],
     "date": "2020-12-20",
     "categories": [],
-    "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nHospitalizations and deaths are increasing in this third wave of the pandemic, but not at a rate that could have been expected based on our initial experience with COVID-19. In the early phases of the pandemic almost 1 in ten of identified cases died from the disease. In more recent months, Ohio has seen a steady decline in the ratio of deaths to infections. While case finding has improved, it is likely that improved health care response is also a big part of the story.\r\nThis should not be construed as a reason to return to pre-COVID-19 behavior, but it does suggest that if we can continue to wear masks and avoid indoor gatherings until vaccines are widely available, Ohio’s health care system will protect the majority of infected Ohioans.\r\nThe Ohio Department of Health neither agrees or disagrees with the analyses, interpretations, or conclusions in this report.1\r\nThe following chart shows the percentage of deaths to infections for Ohio and Franklin County from April through November. \r\nOhio & Franklin Co. Percent of Deaths to Cases\r\n\r\n\r\n\r\n\r\nCOVID-19. (2020). Retrieved 19 December 2020, from https://coronavirus.ohio.gov/wps/portal/gov/covid-19/home↩\r\n",
+    "contents": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHospitalizations and deaths are increasing in this third wave of the pandemic, but not at a rate that could have been expected based on our initial experience with COVID-19. In the early phases of the pandemic almost 1 in ten of identified cases died from the disease. In more recent months, Ohio has seen a steady decline in the ratio of deaths to infections. While case finding has improved, it is likely that improved health care response is also a big part of the story.\nThis should not be construed as a reason to return to pre-COVID-19 behavior, but it does suggest that if we can continue to wear masks and avoid indoor gatherings until vaccines are widely available, Ohio’s health care system will protect the majority of infected Ohioans.\nThe Ohio Department of Health neither agrees or disagrees with the analyses, interpretations, or conclusions in this report.1\nThe following chart shows the percentage of deaths to infections for Ohio and Franklin County from April through November. \nOhio & Franklin Co. Percent of Deaths to Cases\n\n\n\n\nCOVID-19. (2020). Retrieved 19 December 2020, from https://coronavirus.ohio.gov/wps/portal/gov/covid-19/home↩\n",
     "preview": "posts/2020-12-20-its-not-all-bad-news/its-not-all-bad-news_files/figure-html5/unnamed-chunk-5-1.png",
-    "last_modified": "2020-12-21T10:55:01-05:00",
+    "last_modified": "2020-12-21T11:10:20-05:00",
     "input_file": {},
     "preview_width": 3900,
     "preview_height": 2400
@@ -47,9 +30,9 @@
     ],
     "date": "2020-12-14",
     "categories": [],
-    "contents": "\r\n\r\n\r\n\r\nFigure 1: Ohio Statehouse\r\n\r\n\r\n\r\nOhio COVID-19 Cases, Hospitalizations and Deaths by Age and Quarter\r\nThe following bubble graph displays the number of COVID-19 infections by age and quarter. Each age cohort is represented by separate colors as noted in the legend to the right. This figure shows that persons between the ages of 20 through 29 account for more infections than the other age groups. Overall infections have increased and apparently have not yet peaked.\r\n\r\n\r\n\r\nFigure 2: Infections by Age and Quarter\r\n\r\n\r\n\r\nThe final graph shows deaths by age and quarter. In this figure we see an overwhelming number of COVID-19 fatalities are accounted for by very elderly Ohioans. While it is widely known that the elderly are most susceptible to COVID-19, it is also true that middle-aged persons with significant underlying diseases like respiratory disorders and diabetes are vulnerable to serious harm. Interestingly, overall deaths peaked earlier in the pandemic and have yet to reach previous totals.\r\n\r\n\r\n\r\nFigure 3: Deaths by Age and Quarter\r\n\r\n\r\n\r\nWe are now in the third wave of infections, and while the ratio of deaths to infections is lower than what was seen in previous waves, it is possible that the sheer number of new infections and hospitalizations may overwhelm our healthcare system and cause unacceptably high death rates. Ohio will likely see peak pandemic numbers over the next several weeks. These data were extracted from the Ohio Department of Health COVID-19 Dashboard.1\r\n\r\nCOVID-19. (2020). Retrieved 6 December 2020, from https://coronavirus.ohio.gov/wps/portal/gov/covid-19/home↩\r\n",
+    "contents": "\n\n\n\nFigure 1: Ohio Statehouse\n\n\n\nOhio COVID-19 Cases, Hospitalizations and Deaths by Age and Quarter\nThe following bubble graph displays the number of COVID-19 infections by age and quarter. Each age cohort is represented by separate colors as noted in the legend to the right. This figure shows that persons between the ages of 20 through 29 account for more infections than the other age groups. Overall infections have increased and apparently have not yet peaked.\n\n\n\nFigure 2: Infections by Age and Quarter\n\n\n\nThe final graph shows deaths by age and quarter. In this figure we see an overwhelming number of COVID-19 fatalities are accounted for by very elderly Ohioans. While it is widely known that the elderly are most susceptible to COVID-19, it is also true that middle-aged persons with significant underlying diseases like respiratory disorders and diabetes are vulnerable to serious harm. Interestingly, overall deaths peaked earlier in the pandemic and have yet to reach previous totals.\n\n\n\nFigure 3: Deaths by Age and Quarter\n\n\n\nWe are now in the third wave of infections, and while the ratio of deaths to infections is lower than what was seen in previous waves, it is possible that the sheer number of new infections and hospitalizations may overwhelm our healthcare system and cause unacceptably high death rates. Ohio will likely see peak pandemic numbers over the next several weeks. These data were extracted from the Ohio Department of Health COVID-19 Dashboard.1\n\nCOVID-19. (2020). Retrieved 6 December 2020, from https://coronavirus.ohio.gov/wps/portal/gov/covid-19/home↩\n",
     "preview": "posts/2020-12-14-covid-19-cases-and-deaths-by-age/Levlong.jpg",
-    "last_modified": "2020-12-16T13:18:21-05:00",
+    "last_modified": "2020-12-21T11:10:20-05:00",
     "input_file": {}
   },
   {
@@ -64,9 +47,9 @@
     ],
     "date": "2020-12-14",
     "categories": [],
-    "contents": "\r\nThe COVID Tracking Project is a volunteer organization initiated by The Atlantic for the purpose of collecting and publishing national trends necessary to understand COVID-19 outbreaks throughout the United States.1\r\nDuring the early months of the pandemic, Ohio’s rate of infections and overall trends in change over time were trended lower than national average. The following graph of reported infections per 100,000 population since July shows that since mid October infection rates have increased at a much more dramatic rate than national average.2\r\nCOVID-19 Infections Over Time\r\n\r\n\r\n\r\nFigure 1: Source: Covid Tracking Project\r\n\r\n\r\n\r\nSimilarly, a review of hospitalization rates per 100,000 shows alarming increases that also exceed national trends. While no can forecast with accuracy how infection rates will change over the next several months, there is significant cause for concern and the number of Ohio hospitalizations in November and December suggests that demand for acute hospital services for COVID-19 patients may exceed capacity in some of the more affected areas.\r\nCOVID-19 Hospitalizations Over Time\r\n\r\n\r\n\r\nFigure 2: Source: Covid Tracking Project\r\n\r\n\r\n\r\nCOVID-19 Deaths Over Time\r\nFortunately for Ohio, the death rate per 100,000 population remains at or below national average. However, since mid-October Ohio deaths have increased at a more rapid rate and are now approaching the national average.\r\n\r\n\r\n\r\nFigure 3: Source: Covid Tracking Project\r\n\r\n\r\n\r\nDistill is a publication format for scientific and technical writing, native to the web.\r\nLearn more about using Distill at https://rstudio.github.io/distill.\r\n\r\nThe COVID Tracking Project. (2020). Retrieved 13 December 2020, from https://covidtracking.com/↩\r\nTrump Sits Out Debut of Covid-19 Vaccine That He Long Championed. (2020). Retrieved 16 December 2020, from https://www.msn.com/en-us/news/politics/trump-sits-out-debut-of-covid-19-vaccine-that-he-long-championed/ar-BB1bY8rA?ocid=msedgntp↩\r\n",
+    "contents": "\nThe COVID Tracking Project is a volunteer organization initiated by The Atlantic for the purpose of collecting and publishing national trends necessary to understand COVID-19 outbreaks throughout the United States.1\nDuring the early months of the pandemic, Ohio’s rate of infections and overall trends in change over time were trended lower than national average. The following graph of reported infections per 100,000 population since July shows that since mid October infection rates have increased at a much more dramatic rate than national average.2\nCOVID-19 Infections Over Time\n\n\n\nFigure 1: Source: Covid Tracking Project\n\n\n\nSimilarly, a review of hospitalization rates per 100,000 shows alarming increases that also exceed national trends. While no can forecast with accuracy how infection rates will change over the next several months, there is significant cause for concern and the number of Ohio hospitalizations in November and December suggests that demand for acute hospital services for COVID-19 patients may exceed capacity in some of the more affected areas.\nCOVID-19 Hospitalizations Over Time\n\n\n\nFigure 2: Source: Covid Tracking Project\n\n\n\nCOVID-19 Deaths Over Time\nFortunately for Ohio, the death rate per 100,000 population remains at or below national average. However, since mid-October Ohio deaths have increased at a more rapid rate and are now approaching the national average.\n\n\n\nFigure 3: Source: Covid Tracking Project\n\n\n\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\nThe COVID Tracking Project. (2020). Retrieved 13 December 2020, from https://covidtracking.com/↩\nTrump Sits Out Debut of Covid-19 Vaccine That He Long Championed. (2020). Retrieved 16 December 2020, from https://www.msn.com/en-us/news/politics/trump-sits-out-debut-of-covid-19-vaccine-that-he-long-championed/ar-BB1bY8rA?ocid=msedgntp↩\n",
     "preview": "posts/2020-12-14-how-does-ohio-compare/uscase.jpg",
-    "last_modified": "2020-12-16T13:24:04-05:00",
+    "last_modified": "2020-12-21T11:10:20-05:00",
     "input_file": {}
   },
   {
@@ -81,9 +64,9 @@
     ],
     "date": "2020-12-14",
     "categories": [],
-    "contents": "\r\n\r\n\r\n\r\nFigure 1: Hocking Hills State Park\r\n\r\n\r\n\r\nSoutheast Ohio is a region of tremendous physical beauty, but also home to deeply entrenched multi-generational poverty. Recent data suggest the area may also be an emerging hotspot for COVID-19.\r\nThe rate of infection for the region is now virtually identical to the remainder of the state. That in itself would be cause for concern, but a review of recent hospitalization trends shows that admissions are now about 50 percent higher than the rest Ohio.\r\nThere have been three distinct waves of COVID-19 transmission throughout the state. Overall, deaths have been lower in the second and third wave. While COVID-19 deaths were much initially lower in Southeast Ohio than the remainder the state, deaths have steadily increased throughout the region.\r\nLower initial rates throughout the region may have resulted in a degree of complacency. Disproportionate numbers of area poor residents who have underlying conditions combined with disregard for basic COVID-19 health practices could cause unnecessary loss of life in Southeast Ohio and other rural communities across the state. These data were extracted from the Ohio Department of Health COVID-19 Dashboard.1\r\nCovid-19 Deaths Over Time\r\n\r\n\r\n\r\n\r\nCOVID-19. (2020). Retrieved 6 December 2020, from https://coronavirus.ohio.gov/wps/portal/gov/covid-19/home↩\r\n",
+    "contents": "\n\n\n\nFigure 1: Hocking Hills State Park\n\n\n\nSoutheast Ohio is a region of tremendous physical beauty, but also home to deeply entrenched multi-generational poverty. Recent data suggest the area may also be an emerging hotspot for COVID-19.\nThe rate of infection for the region is now virtually identical to the remainder of the state. That in itself would be cause for concern, but a review of recent hospitalization trends shows that admissions are now about 50 percent higher than the rest Ohio.\nThere have been three distinct waves of COVID-19 transmission throughout the state. Overall, deaths have been lower in the second and third wave. While COVID-19 deaths were much initially lower in Southeast Ohio than the remainder the state, deaths have steadily increased throughout the region.\nLower initial rates throughout the region may have resulted in a degree of complacency. Disproportionate numbers of area poor residents who have underlying conditions combined with disregard for basic COVID-19 health practices could cause unnecessary loss of life in Southeast Ohio and other rural communities across the state. These data were extracted from the Ohio Department of Health COVID-19 Dashboard.1\nCovid-19 Deaths Over Time\n\n\n\n\nCOVID-19. (2020). Retrieved 6 December 2020, from https://coronavirus.ohio.gov/wps/portal/gov/covid-19/home↩\n",
     "preview": "posts/2020-12-14-is-south-east-ohio-headed-for-trouble/seo.jpg",
-    "last_modified": "2020-12-14T10:58:58-05:00",
+    "last_modified": "2020-12-21T11:10:20-05:00",
     "input_file": {}
   },
   {
@@ -98,9 +81,9 @@
     ],
     "date": "2020-12-14",
     "categories": [],
-    "contents": "\r\nThe Ohio Alliance for Innovation in Population Health (the Alliance) is launching a blogsite to provide our members and other constituents with timely data, editorials and guest opinions about pressing health problems confronting Ohio. Please feel free to ask questions, identify topics of interest and voice your concerns.\r\nBest Wishes,\r\nRichard Hodges, Director\r\n\r\n\r\n\r\n",
+    "contents": "\nThe Ohio Alliance for Innovation in Population Health (the Alliance) is launching a blogsite to provide our members and other constituents with timely data, editorials and guest opinions about pressing health problems confronting Ohio. Please feel free to ask questions, identify topics of interest and voice your concerns.\nBest Wishes,\nRichard Hodges, Director\n\n\n\n",
     "preview": {},
-    "last_modified": "2020-12-15T09:17:26-05:00",
+    "last_modified": "2020-12-21T11:10:20-05:00",
     "input_file": {}
   }
 ]
