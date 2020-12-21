@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2020-12-14-is-south-east-ohio-headed-for-trouble/",
+    "title": "Is Southeast Ohio Headed for Trouble?",
+    "description": "Southeast Ohio is beautful, remote and many of its residents are desperately poor. In the early phases of the pandemic, the sparsely populated region was relatively unaffected by COVID-19. That is beginning to change.",
+    "author": [
+      {
+        "name": "Orman Hall",
+        "url": {}
+      }
+    ],
+    "date": "2020-12-20",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\nSoutheast Ohio is a region of tremendous physical beauty, but also home to deeply entrenched multi-generational poverty. Recent data suggest the area may also be an emerging hotspot for COVID-19.\r\nThe rate of infection for the region is now virtually identical to the remainder of the state. That in itself would be cause for concern, but a review of recent hospitalization trends shows that admissions are now about 50 percent higher than the rest Ohio.\r\nThere have been three distinct waves of COVID-19 transmission throughout the state. Overall, deaths have been lower in the second and third wave. While COVID-19 deaths were much initially lower in Southeast Ohio than the remainder the state, deaths have steadily increased throughout the region.\r\nLower initial rates throughout the region may have resulted in a degree of complacency. Disproportionate numbers of area poor residents who have underlying conditions combined with disregard for basic COVID-19 health practices could cause unnecessary loss of life in Southeast Ohio and other rural communities across the state. These data were extracted from the Ohio Department of Health COVID-19 Dashboard.1\r\nCovid-19 Deaths Over Time\r\n\r\n\r\n\r\n\r\nCOVID-19. (2020). Retrieved 6 December 2020, from https://coronavirus.ohio.gov/wps/portal/gov/covid-19/home↩\r\n",
+    "preview": "posts/2020-12-14-is-south-east-ohio-headed-for-trouble/seo.jpg",
+    "last_modified": "2020-12-21T15:49:51-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2020-12-20-its-not-all-bad-news/",
     "title": "It's Not All Bad News",
     "description": "While it is true that COVID-19 infections are increasing at an alarming pace across Ohio, the one saving grace may be that the percentage of deaths to infections has declined. This is an important indicator that Ohio's physicians, nurses, and other health care workers have responded effectively to the deadliest challenge of the 21st Century.",
