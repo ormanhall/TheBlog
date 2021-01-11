@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/2021-01-11-law-enforcement-fatalities-in-ohio/",
+    "title": "Law Enforcement Fatalities in Ohio",
+    "description": "Recent police shootings in Columbus have fueled protests and concerns in the civil  rights community, but what does a careful analysis of the data tell us about fatal police interventions in Ohio and Franklin County?",
+    "author": [
+      {
+        "name": "Orman Hall",
+        "url": {}
+      }
+    ],
+    "date": "2021-01-11",
+    "categories": [],
+    "contents": "\r\n\r\n\r\n\r\nFigure 1: Ohio Statehouse\r\n\r\n\r\n\r\nThe Ohio Alliance for Innovation in Population Health obtained data from the Washington Post police shootings database1 for the U.S. covering the period beginning January 1st, 2015 through January 4th, 2021. The Post database tracks more than a dozen data elements per fatality – including race of decedent, the circumstances of the shooting, whether the person was armed and whether the person was experiencing a mental health crisis.\r\nOur analysis of the Post’s data shows there were 169 Ohio fatalities for an average annual death rate per million population of 2.41, which is lower than the national annual rate of 2.99. At 5.01 deaths per 1 million, Franklin County ranked 13th among the 100 most populous counties in the United States. Cuyahoga and Hamilton ranked 57th and 59th respectively. Our analysis also suggests that police intervention fatalities may be higher in rural areas than in the urban centers. For a more detailed analysis look for the upcoming Police Intervention Fatality monograph that the Alliance will release later in January.\r\n\r\nRetrieved 22 December 2020, from https://www.washingtonpost.com/national/how-thewashington- post-is-examining-police-shootings-in-the-united-states/2016/07/07/d9c52238-43ad-11e6- 8856-f26de2537a9d_story.html↩\r\n",
+    "preview": "posts/2021-01-11-law-enforcement-fatalities-in-ohio/Levlong.jpg",
+    "last_modified": "2021-01-11T08:32:30-05:00",
+    "input_file": {}
+  },
+  {
     "path": "posts/2020-12-14-is-south-east-ohio-headed-for-trouble/",
     "title": "Is Southeast Ohio Headed for Trouble?",
     "description": "Southeast Ohio is beautful, remote and many of its residents are desperately poor. In the early phases of the pandemic, the sparsely populated region was relatively unaffected by COVID-19. That is beginning to change.",
