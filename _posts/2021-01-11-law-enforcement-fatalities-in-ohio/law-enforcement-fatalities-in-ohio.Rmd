@@ -27,3 +27,9 @@ post-is-examining-police-shootings-in-the-united-states/2016/07/07/d9c52238-43ad
 Our analysis of the Post's data shows there were 169 Ohio fatalities for an average annual death rate per million population of 2.41, which is lower than the national annual rate of 2.99. At 5.01 deaths per 1 million, Franklin County ranked 13th among the 100 most populous counties in the United States. Cuyahoga and Hamilton ranked 57th and 59th respectively. 
 Our analysis also suggests that police intervention fatalities may be higher in rural areas than in the urban centers. For a more detailed analysis look for the upcoming Police Intervention Fatality monograph that the Alliance will release later in January.
 
+
+```{r, echo=FALSE, fig.align ='center', out.width = '100%',fig.cap="Map of Police Shooting Fatalities by County, 2015 - Jan 4, 2021"}
+knitr::include_graphics("c:/dBase5/en/police/fatalities.jpeg")
+```
+
+
