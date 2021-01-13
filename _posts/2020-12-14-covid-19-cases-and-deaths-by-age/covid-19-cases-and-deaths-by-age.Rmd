@@ -4,7 +4,7 @@ description: |
   Ohio COVID-19 infections are widely distributed across all ages. Hospitalizations and deaths are disproportionately accounted by older Ohioans with serious underlying health conditions.
 author:
   - name: Orman Hall
-    url: https://example.com/norajones
+    url: 
 date: 12-14-2020
 output:
   distill::distill_article:
