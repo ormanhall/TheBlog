@@ -4,7 +4,11 @@ description: |
   Southeast Ohio is beautful, remote and many of its residents are desperately poor. In the early phases of the pandemic, the sparsely populated region was relatively unaffected by COVID-19. That is beginning to change.
 author:
   - name: Orman Hall
-#date: 12-12-2020
+date: 12-20-2020
+base_url: https://youthful-curran-b41ac1.netlify.app/
+twitter:
+  site: "@HallOrman"
+  creator: "@HallOrman"
 output:
   distill::distill_article:
     self_contained: false
