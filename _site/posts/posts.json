@@ -13,7 +13,7 @@
     "categories": [],
     "contents": "\r\n\r\n\r\n\r\nFigure 1: Ohio Statehouse\r\n\r\n\r\n\r\nThe Ohio Alliance for Innovation in Population Health obtained data from the Washington Post police shootings database1 for the U.S. covering the period beginning January 1st, 2015 through January 4th, 2021. The Post database tracks more than a dozen data elements per fatality – including race of decedent, the circumstances of the shooting, whether the person was armed and whether the person was experiencing a mental health crisis.\r\nOur analysis of the Post’s data shows there were 169 Ohio fatalities for an average annual death rate per million population of 2.41, which is lower than the national annual rate of 2.99. At 5.01 deaths per 1 million, Franklin County ranked 13th among the 100 most populous counties in the United States. Cuyahoga and Hamilton ranked 57th and 59th respectively. Our analysis also suggests that police intervention fatalities may be higher in rural areas than in the urban centers. For a more detailed analysis look for the upcoming Police Intervention Fatality monograph that the Alliance will release later in January.\r\n\r\n\r\n\r\nFigure 2: Map of Police Shooting Fatalities by County, 2015 - Jan 4, 2021\r\n\r\n\r\n\r\n\r\nRetrieved 22 December 2020, from https://www.washingtonpost.com/national/how-thewashington- post-is-examining-police-shootings-in-the-united-states/2016/07/07/d9c52238-43ad-11e6- 8856-f26de2537a9d_story.html↩\r\n",
     "preview": "posts/2021-01-11-law-enforcement-fatalities-in-ohio/Levlong.jpg",
-    "last_modified": "2021-01-11T09:37:53-05:00",
+    "last_modified": "2021-01-14T09:23:08-05:00",
     "input_file": {}
   },
   {
@@ -47,7 +47,7 @@
     "categories": [],
     "contents": "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nHospitalizations and deaths are increasing in this third wave of the pandemic, but not at a rate that could have been expected based on our initial experience with COVID-19. In the early phases of the pandemic almost 1 in ten of identified cases died from the disease. In more recent months, Ohio has seen a steady decline in the ratio of deaths to infections. While case finding has improved, it is likely that improved health care response is also a big part of the story.\r\nThis should not be construed as a reason to return to pre-COVID-19 behavior, but it does suggest that if we can continue to wear masks and avoid indoor gatherings until vaccines are widely available, Ohio’s health care system will protect the majority of infected Ohioans.\r\nThe Ohio Department of Health neither agrees or disagrees with the analyses, interpretations, or conclusions in this report.1\r\nThe following chart shows the percentage of deaths to infections for Ohio and Franklin County from April through November. \r\nOhio & Franklin Co. Percent of Deaths to Cases\r\n\r\n\r\n\r\n\r\nCOVID-19. (2020). Retrieved 19 December 2020, from https://coronavirus.ohio.gov/wps/portal/gov/covid-19/home↩\r\n",
     "preview": "posts/2020-12-20-its-not-all-bad-news/its-not-all-bad-news_files/figure-html5/unnamed-chunk-5-1.png",
-    "last_modified": "2020-12-21T10:55:01-05:00",
+    "last_modified": "2021-01-14T08:32:55-05:00",
     "input_file": {},
     "preview_width": 3900,
     "preview_height": 2400
