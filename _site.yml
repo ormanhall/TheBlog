@@ -18,8 +18,10 @@ base_url: https://youthful-curran-b41ac1.netlify.app/
 google_analytics: "UA-77306155-2"
 collections:
   posts:
-    feed_items_max: 50
-    disqus: Ablog
+#    feed_items_max: 50
+    disqus: 
+      shortname: oaiphblog
+      hidden: true
     share: [twitter, linkedin]
 twitter:
   site: "@OHIOpopheath"
