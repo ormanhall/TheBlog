@@ -5,7 +5,7 @@ description: |
 author:
   - name: Ani Ruhil
     url: {}
-date: 01-09-2021
+date: 02-19-2021
 output:
   distill::distill_article:
     self_contained: false
@@ -151,7 +151,7 @@ uioh20 %>%
 ggplot() +
   geom_col(
     data = mydf_state,
-    aes(x = wk_date, y = strate_initial)) +
+    aes(x = wk_date, y = strate_initial), fill = "midnightblue") +
   ylim(c(0, 3000)) +
   scale_x_date(date_breaks = "4 months", date_labels = "%b %d") +
   scale_y_continuous(labels = scales::comma) +  
@@ -162,6 +162,7 @@ ggplot() +
   geom_col(
     data = mydf_app,
     aes(x = wk_date, y = rate_initial_No),
+    fill = "salmon",
     alpha = 0.75) +
   ylim(c(0, 3000)) +
   scale_x_date(date_breaks = "4 months", date_labels = "%b %d") +
@@ -173,7 +174,7 @@ ggplot() +
   geom_col(
     data = mydf_app,
     aes(x = wk_date, y = rate_initial_Yes),
-    alpha = 0.50) +
+    alpha = 0.50, fill = "#00694E") +
   ylim(c(0, 3000)) +
   scale_x_date(date_breaks = "4 months", date_labels = "%b %d") +
   scale_y_continuous(labels = scales::comma) +  
@@ -183,7 +184,7 @@ ggplot() +
 ggplot() +
   geom_col(
     data = mydf_mpp2,
-    aes(x = wk_date, y = rate_initial)) +
+    aes(x = wk_date, y = rate_initial), fill = "cornflowerblue") +
   ylim(c(0, 3000)) +
   scale_x_date(date_breaks = "4 months", date_labels = "%b %d") +  
   scale_y_continuous(labels = scales::comma) +
@@ -209,7 +210,7 @@ mydf_mpp3 %>%
   hrbrthemes::theme_ipsum_rc() +
   labs(
     title = "Ohio Law initial claims, representing newly unemployed persons",
-    subtitle = "(For weeks ending 2020-01-04 through 2021-02-06)",
+    subtitle = "(For weeks ending 2020-01-04 through 2021-02-13)",
     caption = "@aruhil",
     x = "Week Ending",
     y = "Number of Initial Claims Filed per 100,000 persons") +
