@@ -5,15 +5,25 @@
       "title": "About this blog",
       "description": "Some additional details about the blog",
       "author": [],
+<<<<<<< HEAD
       "contents": "\r\n\r\n\r\n\r\n",
       "last_modified": "2021-03-03T15:01:36-05:00"
+=======
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-02-23T20:57:55-05:00"
+>>>>>>> 578bf88a617fe4ea704c0288623bf14df66cc8bb
     },
     {
       "path": "index.html",
       "title": "The Alliance Blog",
       "author": [],
+<<<<<<< HEAD
       "contents": "\r\n\r\n\r\n\r\n",
       "last_modified": "2021-03-03T15:01:37-05:00"
+=======
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-02-23T20:57:55-05:00"
+>>>>>>> 578bf88a617fe4ea704c0288623bf14df66cc8bb
     }
   ],
   "collections": ["posts/posts.json"]
