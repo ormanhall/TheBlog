@@ -12,6 +12,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
+library(tidyverse)
 knitr::opts_chunk$set(echo = TRUE, dev="svg", fig.retina = 3, fig.align = "center")
 ```
 
@@ -22,14 +23,25 @@ knitr::include_graphics("levlong.jpg")
 
 The Ohio Alliance for Innovation in Population Health obtained data from the _Washington Post_ police shootings database^[Retrieved 22 December 2020, from https://www.washingtonpost.com/national/how-thewashington-
 post-is-examining-police-shootings-in-the-united-states/2016/07/07/d9c52238-43ad-11e6-
-8856-f26de2537a9d_story.html] for the U.S. covering the period beginning January 1st, 2015 through January 4th, 2021. The Post database tracks more than a dozen data elements per fatality – including race of decedent, the circumstances of the shooting, whether the person was armed and whether the person was experiencing a mental health crisis.
+8856-f26de2537a9d_story.html] for the U.S. covering the period beginning January 1st, 2015 through December 31st, 2020. The Post database tracks more than a dozen data elements per fatality – including race of decedent, the circumstances of the shooting, whether the person was armed and whether the person was experiencing a mental health crisis.
  
-Our analysis of the Post's data shows there were 169 Ohio fatalities for an average annual death rate per million population of 2.41, which is lower than the national annual rate of 2.99. At 5.01 deaths per 1 million, Franklin County ranked 13th among the 100 most populous counties in the United States. Cuyahoga and Hamilton ranked 57th and 59th respectively. 
-Our analysis also suggests that police intervention fatalities may be higher in rural areas than in the urban centers. For a more detailed analysis look for the upcoming Police Intervention Fatality monograph that the Alliance will release later in January.
+Our analysis of the Post's data shows there were 169 Ohio fatalities for an average annual death rate per million population of 2.40, which is lower than the national annual rate of 2.98. At 4.81 deaths per 1 million, Franklin County ranked 18th among the 100 most populous counties in the United States. Cuyahoga and Hamilton ranked 56th and 61st respectively. 
+Our analysis also suggests that police intervention fatalities may be higher in rural areas than in the urban centers. 
+
+The following graph shows the average annual fatality rate per 1,000,000 persons for Ohio's three largest counties (Franklin, Cuyahoga, and Hamilton). Cook County, Illinois, which encompassing Chicago is included for purposes of comparison. Franklin County has the highest rate among the four urban comparison group counties.
 
 
-```{r, echo=FALSE, fig.align ='center', out.width = '100%',fig.cap="Map of Police Shooting Fatalities by County, 2015 - Jan 4, 2021"}
-knitr::include_graphics("fatalities.jpeg")
+
+```{r echo=FALSE, message=FALSE, dpi=300,fig.align='center',fig.cap="Rate per 1,000,000 Police Intervention Fatalities for Franklin, Cuyahoga, Hamilton and Cook Counties, 2015 - 2020"}
+
+CORATES<-read.csv(here::here("data", "CORATES.csv"))
+CORATES$County <- factor(CORATES$County,levels=CORATES$County)
+CORATES %>%
+  ggplot( aes(x=County,y=Rate)) +
+    geom_col(fill="steelblue4", color="#e9ecef", alpha=0.9) +
+geom_text(aes(label=Rate, size=8), position=position_dodge(width=.8), size=3, vjust=-0.,hjust=2, colour="white") +    
+   coord_flip() +
+    theme_minimal()
 ```
 
 
