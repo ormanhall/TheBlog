@@ -5,11 +5,11 @@ description: |
 author:
   - name: Ani Ruhil
     url: {}
-date: 02-19-2021
+date: 04-17-2021
 output:
   distill::distill_article:
     self_contained: false
-draft: false
+draft: true
 editor_options: 
   chunk_output_type: console
 ---
@@ -198,7 +198,7 @@ p1 / (p2 + p3) / p4
 
 What about individual county-level trends? 
 
-```{r county-trends, layout = "l-page", out.width = "50%", fig.height = 10}
+```{r county-trends, layout = "l-page", out.width = "50%", fig.height = 10, fig.align = 'center'}
 mydf_mpp3 %>%
   filter(MPP == "Mayors' Partnership") %>%
   ggplot() +
