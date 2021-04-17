@@ -210,7 +210,7 @@ mydf_mpp3 %>%
   hrbrthemes::theme_ipsum_rc() +
   labs(
     title = "Ohio Law initial claims, representing newly unemployed persons",
-    subtitle = "(For weeks ending 2020-01-04 through 2021-02-13)",
+    subtitle = "(For weeks ending 2020-01-04 through 2021-04-10)",
     caption = "@aruhil",
     x = "Week Ending",
     y = "Number of Initial Claims Filed per 100,000 persons") +
