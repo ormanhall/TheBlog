@@ -9,7 +9,7 @@ date: 04-17-2021
 output:
   distill::distill_article:
     self_contained: false
-draft: true
+draft: false
 editor_options: 
   chunk_output_type: console
 ---
