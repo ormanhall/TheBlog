@@ -1,5 +1,7 @@
 ---
 title: "Welcome to the Alliance"
+description: |
+  I reflected on the interconnected nature of health as I considered my own journey. I think the growing connections also represented my own awareness and awakening about systems. The connections were always there, I just went on a journey to realize them. I started out as a voice performance major in college. I was a single person on a stage focused on my communication with a group through my artistic activity. In sharing my interest, I gave voice lessons.
 author:
   - name: Dean McCarthy
     url: https://oaiphblog.com
