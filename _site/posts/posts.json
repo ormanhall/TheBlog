@@ -1,5 +1,22 @@
 [
   {
+    "path": "posts/welcome/",
+    "title": "Welcome to the Alliance",
+    "description": {},
+    "author": [
+      {
+        "name": "Dean McCarthy",
+        "url": {}
+      }
+    ],
+    "date": "2021-04-22",
+    "categories": [],
+    "contents": "\nAn Interconnected System\nI reflected on the interconnected nature of health as I considered my own journey. I think the growing connections also represented my own awareness and awakening about systems. The connections were always there, I just went on a journey to realize them. I started out as a voice performance major in college. I was a single person on a stage focused on my communication with a group through my artistic activity. In sharing my interest, I gave voice lessons. I enjoyed the interaction and in helping someone else to express themselves in the way I did. One of my students had vocal nodules. I learned about how a speech-language pathologist had assisted my voice student in her voice use on a daily basis. I also learned about intersections in care related to the voice. Speech-language pathology was a field I really didn’t know much about so I took time to educate myself on it.\nIn addition to overlap in voice, I found there were overlaps with many of my interests. I took classes in speech-language pathology. I discovered that people who stutter don’t stutter when they sing. Another intersection. What could people learn from each other? I worked in a summer program for adults who stutter. Stuttering was described as an ice-berg. The speech behaviors were only the tip of what people saw with a life time of emotional reactions and experiences lying underneath. Communication is contextual. Challenges in communication affect multiple people in multiple ways. One person’s challenge has an effect on the behavior of others in communicating. The cycle is interactive and iterative.\nI learned there are people who cannot use their voice at all. People who have developmental disabilities such as cerebral palsy, autism spectrum disorder, Down syndrome, and intellectual disabilities may have speech impairments so significant that they cannot meet their daily communication needs. Likewise individuals who have had a stroke or traumatic brain injury may have language or speech problems that are significantly limiting. People may be temporarily unable to speak because about intubation or facial surgery, and people may experience progressive loss of speech due to conditions like ALS or Parkinson’s Disease. Individuals with significant communication disabilities can benefit from augmentative and alternative communication (AAC) such as gestures, signs, picture communication symbols or boards, alphabet boards, or computer or tablet-based devices that can produce speech output. The range of people who could benefit was vast. The work involved a careful understanding of the needs and skills of each individual but also the needs and skills of family and caregivers along with the barriers and support in their communities and society in general. The work was magnified.\nI thought I was part of a complex system and I knew my work was interdisciplinary. I worked with physical and occupational therapists, behavioral specialists, nurses, doctors, psychologists, psychiatrists, rehabilitation engineers, registered dietitians, social workers, teachers, and many of hath care professionals. I became part of interprofessional education efforts at Ohio University to find ways to improve coordination of services and to create a climate of mutual and ethical respect. I still didn’t have the whole picture. The health of the people I worked with was socially determined.\nIn 2016, the Interprofessional Education Collaborative (IPEC) updated their standards to include a focus on population health. To truly make a difference I had to recognize the systems I was a part of. I had to see that things like access to care and food insecurity were problems that affected everything in a whole delivery system and had an interactive effect on me as a citizen in my community. It’s not that these things weren’t always there or that the work wasn’t always being done. I needed to integrate it.\nI needed an understanding of:\nThe goals, perspectives, needs, and wants of the client I was working with\nThe goals, perspectives, needs, and wants of the family/caregivers\nHow family/caregiver goals may differ\nMy role within a team of professionals\nThe family’s relationship with the team of professionals\nThe service delivery structure\nThe perspectives of other health professionals and seeing how we all are working to improve health\nHow systems actually affect someone’s health in positive and negative ways\nHow health includes things like housing and transportation\nThat the power to affect change relies on a team that spans the entire state, country and world.\nI support the Alliance in their mission because it is fundamental to improving health outcomes for Ohio. They understand and help to build the critical networks required.\nOffice of the DeanJohn McCarthy, Ph.D., Interim Dean\nGrover Center W381, Ohio University, Athens OH 45701-2979\nPronouns: He/Him/His\nT:740.593.4717 • mccarthj@ohio.edu\ntwitter.com/sayitanywayou • twitter.com/CHSPOhio\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-04-21T10:36:25-04:00",
+    "input_file": "welcome.utf8.md"
+  },
+  {
     "path": "posts/2021-01-09-unemployment-insurance-claims/",
     "title": "Unemployment Insurance Claims",
     "description": "County-level unemployment insurance data are hard to come by from the state, at least not in an easy to use format. We scrape claims data every week when an updated report is released by the state and make the data available for download here. We also share some comparisons of statewide claims versus claims for specific regions, over time.",
@@ -117,23 +134,6 @@
     "categories": [],
     "contents": "\nThe COVID Tracking Project is a volunteer organization initiated by The Atlantic for the purpose of collecting and publishing national trends necessary to understand COVID-19 outbreaks throughout the United States.1\nDuring the early months of the pandemic, Ohio’s rate of infections and overall trends in change over time were trended lower than national average. The following graph of reported infections per 100,000 population since July shows that since mid October infection rates have increased at a much more dramatic rate than national average.2\nCOVID-19 Infections Over Time\n\n\n\nFigure 1: Source: Covid Tracking Project\n\n\n\nSimilarly, a review of hospitalization rates per 100,000 shows alarming increases that also exceed national trends. While no can forecast with accuracy how infection rates will change over the next several months, there is significant cause for concern and the number of Ohio hospitalizations in November and December suggests that demand for acute hospital services for COVID-19 patients may exceed capacity in some of the more affected areas.\nCOVID-19 Hospitalizations Over Time\n\n\n\nFigure 2: Source: Covid Tracking Project\n\n\n\nCOVID-19 Deaths Over Time\nFortunately for Ohio, the death rate per 100,000 population remains at or below national average. However, since mid-October Ohio deaths have increased at a more rapid rate and are now approaching the national average.\n\n\n\nFigure 3: Source: Covid Tracking Project\n\n\n\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\nThe COVID Tracking Project. (2020). Retrieved 13 December 2020, from https://covidtracking.com/↩\nTrump Sits Out Debut of Covid-19 Vaccine That He Long Championed. (2020). Retrieved 16 December 2020, from https://www.msn.com/en-us/news/politics/trump-sits-out-debut-of-covid-19-vaccine-that-he-long-championed/ar-BB1bY8rA?ocid=msedgntp↩\n",
     "preview": "posts/2020-12-14-how-does-ohio-compare/uscase.jpg",
-    "last_modified": "2020-12-21T11:10:20-05:00",
-    "input_file": {}
-  },
-  {
-    "path": "posts/welcome/",
-    "title": "Welcome to the Alliance Blog",
-    "description": {},
-    "author": [
-      {
-        "name": "Richard Hodges",
-        "url": "https://example.com/norajones"
-      }
-    ],
-    "date": "2020-12-14",
-    "categories": [],
-    "contents": "\nThe Ohio Alliance for Innovation in Population Health (the Alliance) is launching a blogsite to provide our members and other constituents with timely data, editorials and guest opinions about pressing health problems confronting Ohio. Please feel free to ask questions, identify topics of interest and voice your concerns.\nBest Wishes,\nRichard Hodges, Director\n\n\n\n",
-    "preview": {},
     "last_modified": "2020-12-21T11:10:20-05:00",
     "input_file": {}
   }

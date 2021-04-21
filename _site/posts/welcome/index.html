@@ -20,26 +20,28 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
-a.sourceLine { display: inline-block; line-height: 1.25; }
-a.sourceLine { pointer-events: none; color: inherit; text-decoration: inherit; }
-a.sourceLine:empty { height: 1.2em; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
-code.sourceCode { white-space: pre; position: relative; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
 div.sourceCode { margin: 1em 0; }
 pre.sourceCode { margin: 0; }
 @media screen {
 div.sourceCode { overflow: auto; }
 }
 @media print {
-code.sourceCode { white-space: pre-wrap; }
-a.sourceLine { text-indent: -1em; padding-left: 1em; }
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
-pre.numberSource a.sourceLine
-  { position: relative; left: -4em; }
-pre.numberSource a.sourceLine::before
-  { content: attr(title);
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
     position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; pointer-events: all; display: inline-block;
+    border: none; display: inline-block;
     -webkit-touch-callout: none; -webkit-user-select: none;
     -khtml-user-select: none; -moz-user-select: none;
     -ms-user-select: none; user-select: none;
@@ -48,9 +50,9 @@ pre.numberSource a.sourceLine::before
   }
 pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
 div.sourceCode
-  {  }
+  {   }
 @media screen {
-a.sourceLine::before { text-decoration: underline; }
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 code span.al { color: #ad0000; } /* Alert */
 code span.an { color: #5e5e5e; } /* Annotation */
@@ -84,19 +86,19 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-<title>The Alliance Blog: Welcome to the Alliance Blog</title>
+<title>The Alliance Blog: Welcome to the Alliance</title>
 
 
 <link rel="canonical" href="https://oaiphblog.com/posts/welcome/"/>
 <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
 
 <!--  https://schema.org/Article -->
-<meta property="article:published" itemprop="datePublished" content="2020-12-14"/>
-<meta property="article:created" itemprop="dateCreated" content="2020-12-14"/>
-<meta name="article:author" content="Richard Hodges"/>
+<meta property="article:published" itemprop="datePublished" content="2021-04-22"/>
+<meta property="article:created" itemprop="dateCreated" content="2021-04-22"/>
+<meta name="article:author" content="Dean McCarthy"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="The Alliance Blog: Welcome to the Alliance Blog"/>
+<meta property="og:title" content="The Alliance Blog: Welcome to the Alliance"/>
 <meta property="og:type" content="article"/>
 <meta property="og:url" content="https://oaiphblog.com/posts/welcome/"/>
 <meta property="og:locale" content="en_US"/>
@@ -104,28 +106,28 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary"/>
-<meta property="twitter:title" content="The Alliance Blog: Welcome to the Alliance Blog"/>
+<meta property="twitter:title" content="The Alliance Blog: Welcome to the Alliance"/>
 <meta property="twitter:url" content="https://oaiphblog.com/posts/welcome/"/>
 <meta property="twitter:site" content="@OHIOpopheath"/>
 
 <!--  https://scholar.google.com/intl/en/scholar/inclusion.html#indexing -->
-<meta name="citation_title" content="The Alliance Blog: Welcome to the Alliance Blog"/>
+<meta name="citation_title" content="The Alliance Blog: Welcome to the Alliance"/>
 <meta name="citation_fulltext_html_url" content="https://oaiphblog.com/posts/welcome/"/>
 <meta name="citation_fulltext_world_readable" content=""/>
-<meta name="citation_online_date" content="2020/12/14"/>
-<meta name="citation_publication_date" content="2020/12/14"/>
-<meta name="citation_author" content="Richard Hodges"/>
+<meta name="citation_online_date" content="2021/04/22"/>
+<meta name="citation_publication_date" content="2021/04/22"/>
+<meta name="citation_author" content="Dean McCarthy"/>
 <meta name="citation_author_institution" content="Ohio Alliance for Innovation in Population Health"/>
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["creative_commons","title","author","date","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["CC BY"]},{"type":"character","attributes":{},"value":["Welcome to the Alliance Blog"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Richard Hodges"]},{"type":"character","attributes":{},"value":["https://example.com/norajones"]},{"type":"character","attributes":{},"value":["Ohio Alliance for Innovation in Population Health"]},{"type":"character","attributes":{},"value":["https://example.com/spacelysprokets"]}]}]},{"type":"character","attributes":{},"value":["12-14-2020"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://oaiphblog.com/posts/welcome/"]},{"type":"character","attributes":{},"value":["https://oaiphblog.com/posts/welcome/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["creative_commons","title","author","date","output","citation_url","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["CC BY"]},{"type":"character","attributes":{},"value":["Welcome to the Alliance"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Dean McCarthy"]},{"type":"NULL"},{"type":"character","attributes":{},"value":["Ohio Alliance for Innovation in Population Health"]},{"type":"NULL"}]}]},{"type":"character","attributes":{},"value":["04-22-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://oaiphblog.com/posts/welcome/"]},{"type":"character","attributes":{},"value":["https://oaiphblog.com/posts/welcome/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["welcome_files/anchor-4.2.2/anchor.min.js","welcome_files/bowser-1.9.3/bowser.min.js","welcome_files/distill-2.2.21/template.v2.js","welcome_files/jquery-1.11.3/jquery.min.js","welcome_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["logo.png","welcome_files/anchor-4.2.2/anchor.min.js","welcome_files/bowser-1.9.3/bowser.min.js","welcome_files/distill-2.2.21/template.v2.js","welcome_files/header-attrs-2.7.4/header-attrs.js","welcome_files/jquery-1.11.3/jquery.min.js","welcome_files/popper-2.6.0/popper.min.js","welcome_files/tippy-6.2.7/tippy-bundle.umd.min.js","welcome_files/tippy-6.2.7/tippy-light-border.css","welcome_files/tippy-6.2.7/tippy.css","welcome_files/tippy-6.2.7/tippy.umd.min.js","welcome_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2397,7 +2399,12 @@ d-appendix d-footnote-list a.footnote-backlink {
   color: var(--hover-color, white);
 }</style>
 <!--/radix_placeholder_distill-->
+  <script src="../../site_libs/header-attrs-2.7.4/header-attrs.js"></script>
   <script src="../../site_libs/jquery-1.11.3/jquery.min.js"></script>
+  <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
+  <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="../../site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="../../site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
   <script src="../../site_libs/anchor-4.2.2/anchor.min.js"></script>
   <script src="../../site_libs/bowser-1.9.3/bowser.min.js"></script>
   <script src="../../site_libs/webcomponents-2.0.0/webcomponents.js"></script>
@@ -2420,7 +2427,7 @@ gtag('config', 'UA-77306155-2');
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Welcome to the Alliance Blog","authors":[{"author":"Richard Hodges","authorURL":"https://example.com/norajones","affiliation":"Ohio Alliance for Innovation in Population Health","affiliationURL":"https://example.com/spacelysprokets","orcidID":""}],"publishedDate":"2020-12-14T00:00:00.000+00:00","citationText":"Hodges, 2020"}
+{"title":"Welcome to the Alliance","authors":[{"author":"Dean McCarthy","authorURL":"#","affiliation":"Ohio Alliance for Innovation in Population Health","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-04-22T00:00:00.000+00:00","citationText":"McCarthy, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2446,22 +2453,45 @@ gtag('config', 'UA-77306155-2');
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Welcome to the Alliance Blog</h1>
+<h1>Welcome to the Alliance</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 
 </div>
 
 <div class="d-byline">
-  Richard Hodges <a href="https://example.com/norajones" class="uri">https://example.com/norajones</a> (Ohio Alliance for Innovation in Population Health)<a href="https://example.com/spacelysprokets" class="uri">https://example.com/spacelysprokets</a>
+  Dean McCarthy  (Ohio Alliance for Innovation in Population Health)
   
-<br/>12-14-2020
+<br/>04-22-2021
 </div>
 
 <div class="d-article">
-<p>The Ohio Alliance for Innovation in Population Health (the Alliance) is launching a blogsite to provide our members and other constituents with timely data, editorials and guest opinions about pressing health problems confronting Ohio. Please feel free to ask questions, identify topics of interest and voice your concerns.</p>
-<p>Best Wishes,</p>
-<p>Richard Hodges, Director</p>
+<h2 id="an-interconnected-system">An Interconnected System</h2>
+<p>I reflected on the interconnected nature of health as I considered my own journey. I think the growing connections also represented my own awareness and awakening about systems. The connections were always there, I just went on a journey to realize them. I started out as a voice performance major in college. I was a single person on a stage focused on my communication with a group through my artistic activity. In sharing my interest, I gave voice lessons. I enjoyed the interaction and in helping someone else to express themselves in the way I did. One of my students had vocal nodules. I learned about how a speech-language pathologist had assisted my voice student in her voice use on a daily basis. I also learned about intersections in care related to the voice. Speech-language pathology was a field I really didn’t know much about so I took time to educate myself on it.</p>
+<p>In addition to overlap in voice, I found there were overlaps with many of my interests. I took classes in speech-language pathology. I discovered that people who stutter don’t stutter when they sing. Another intersection. What could people learn from each other? I worked in a summer program for adults who stutter. Stuttering was described as an ice-berg. The speech behaviors were only the tip of what people saw with a life time of emotional reactions and experiences lying underneath. Communication is contextual. Challenges in communication affect multiple people in multiple ways. One person’s challenge has an effect on the behavior of others in communicating. The cycle is interactive and iterative.</p>
+<p>I learned there are people who cannot use their voice at all. People who have developmental disabilities such as cerebral palsy, autism spectrum disorder, Down syndrome, and intellectual disabilities may have speech impairments so significant that they cannot meet their daily communication needs. Likewise individuals who have had a stroke or traumatic brain injury may have language or speech problems that are significantly limiting. People may be temporarily unable to speak because about intubation or facial surgery, and people may experience progressive loss of speech due to conditions like ALS or Parkinson’s Disease. Individuals with significant communication disabilities can benefit from augmentative and alternative communication (AAC) such as gestures, signs, picture communication symbols or boards, alphabet boards, or computer or tablet-based devices that can produce speech output. The range of people who could benefit was vast. The work involved a careful understanding of the needs and skills of each individual but also the needs and skills of family and caregivers along with the barriers and support in their communities and society in general. The work was magnified.</p>
+<p>I thought I was part of a complex system and I knew my work was interdisciplinary. I worked with physical and occupational therapists, behavioral specialists, nurses, doctors, psychologists, psychiatrists, rehabilitation engineers, registered dietitians, social workers, teachers, and many of hath care professionals. I became part of interprofessional education efforts at Ohio University to find ways to improve coordination of services and to create a climate of mutual and ethical respect. I still didn’t have the whole picture. The health of the people I worked with was socially determined.</p>
+<p>In 2016, the <a href="https://www.ipecollaborative.org/">Interprofessional Education Collaborative (IPEC)</a> updated their standards to include a focus on population health. To truly make a difference I had to recognize the systems I was a part of. I had to see that things like access to care and food insecurity were problems that affected everything in a whole delivery system and had an interactive effect on me as a citizen in my community. It’s not that these things weren’t always there or that the work wasn’t always being done. I needed to integrate it.</p>
+<p>I needed an understanding of:</p>
+<ul>
+<li>The goals, perspectives, needs, and wants of the client I was working with</li>
+<li>The goals, perspectives, needs, and wants of the family/caregivers</li>
+<li>How family/caregiver goals may differ</li>
+<li>My role within a team of professionals</li>
+<li>The family’s relationship with the team of professionals</li>
+<li>The service delivery structure</li>
+<li>The perspectives of other health professionals and seeing how we all are working to improve health</li>
+<li>How systems actually affect someone’s health in positive and negative ways</li>
+<li>How health includes things like housing and transportation</li>
+<li>That the power to affect change relies on a team that spans the entire state, country and world.</li>
+</ul>
+<p>I support the Alliance in their mission because it is fundamental to improving health outcomes for Ohio. They understand and help to build the critical networks required.</p>
+<p><strong>Office of the Dean</strong><br />
+<strong>John McCarthy, Ph.D., Interim Dean</strong></p>
+<p>Grover Center W381, Ohio University, Athens OH 45701-2979<br />
+Pronouns: He/Him/His<br />
+T:740.593.4717 • <a href="mailto:mccarthj@ohio.edu" class="email">mccarthj@ohio.edu</a><br />
+twitter.com/sayitanywayou • twitter.com/CHSPOhio</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <div class="article-footer">
@@ -2473,10 +2503,10 @@ gtag('config', 'UA-77306155-2');
     </span>
     <span class="article-sharing">
       Share: &nbsp;
-      <a href="https://twitter.com/share?text=Welcome%20to%20the%20Alliance%20Blog&amp;url=https%3A%2F%2Foaiphblog.com%2Fposts%2Fwelcome%2F">
+      <a href="https://twitter.com/share?text=Welcome%20to%20the%20Alliance&amp;url=https%3A%2F%2Foaiphblog.com%2Fposts%2Fwelcome%2F">
         <i class="fab fa-twitter"></i>
       </a>
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Foaiphblog.com%2Fposts%2Fwelcome%2F&amp;title=Welcome%20to%20the%20Alliance%20Blog">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Foaiphblog.com%2Fposts%2Fwelcome%2F&amp;title=Welcome%20to%20the%20Alliance">
         <i class="fab fa-linkedin"></i>
       </a>
     </span>
@@ -2511,13 +2541,13 @@ var disqus_config = function () {
   <p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
   <h3 id="citation">Citation</h3>
   <p>For attribution, please cite this work as</p>
-  <pre class="citation-appendix short">Hodges (2020, Dec. 14). The Alliance Blog: Welcome to the Alliance Blog. Retrieved from https://oaiphblog.com/posts/welcome/</pre>
+  <pre class="citation-appendix short">McCarthy (2021, April 22). The Alliance Blog: Welcome to the Alliance. Retrieved from https://oaiphblog.com/posts/welcome/</pre>
   <p>BibTeX citation</p>
-  <pre class="citation-appendix long">@misc{hodges2020welcome,
-  author = {Hodges, Richard},
-  title = {The Alliance Blog: Welcome to the Alliance Blog},
+  <pre class="citation-appendix long">@misc{mccarthy2021welcome,
+  author = {McCarthy, Dean},
+  title = {The Alliance Blog: Welcome to the Alliance},
   url = {https://oaiphblog.com/posts/welcome/},
-  year = {2020}
+  year = {2021}
 }</pre>
 </div>
 <!--/radix_placeholder_appendices-->
